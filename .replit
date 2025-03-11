@@ -1,8 +1,13 @@
-modules = ["nodejs-20", "web"]
-run = "yarn start:local"
+modules = ["nodejs-16", "web"]
 
 [nix]
-channel = "stable-24_05"
+channel = "stable-23_05"
+
+[run]
+args = ["yarn", "start:local:unix"]
+
+[run.env]
+HUSKY="0"
 
 [deployment]
 run = ["sh", "-c", "yarn start:local"]
