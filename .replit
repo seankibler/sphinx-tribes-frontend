@@ -12,6 +12,9 @@ HUSKY="0"
 [deployment]
 run = ["sh", "-c", "yarn start:local"]
 
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix"]
+
 [[ports]]
 localPort = 3000
 externalPort = 80
