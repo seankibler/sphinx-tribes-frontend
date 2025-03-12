@@ -48,7 +48,6 @@ const BountiesLandingPage: React.FC = () => {
           <BountyNavBar />
         </header>
         <main>
-          <HeroSection />
           <CommunitySection />
           <PaymentSection />
         </main>
