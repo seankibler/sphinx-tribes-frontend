@@ -13,7 +13,7 @@ HUSKY="0"
 run = ["sh", "-c", "yarn start:local"]
 
 [gitHubImport]
-requiredFiles = [".replit", "replit.nix"]
+requiredFiles = [".replit", "replit.nix", "package.json", "yarn.lock"]
 
 [[ports]]
 localPort = 3000
